@@ -15,8 +15,7 @@ print("Diccionario para la ciudad de",ciudad,"\n",f.crear_diccionario_plantas_ci
 print("\n3.Solicite el nombre de una región al usuario y presente cuanto dinero ha recaudado la región Sierra")
 region=input("Ingrese una region: ").lower()
 region=f.validar_region(region)
-print("Dinero recaudado por la región",region,": $",f.total_region(region
-))
+print("Dinero recaudado por la región",region,": $",f.total_region(region))
 
 print("\n4.Total de megavatios comnsumo de una planta en un mes determinado")
 planta=input("Ingrese el nombre de una planta: ").title()
