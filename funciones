@@ -56,3 +56,4 @@ def consumo_mes_planta(planta,mes):
  tarifa=d.consumo_energia[planta][ciudad]["tarifa"]
  total+=consumo*tarifa
  return total
+
