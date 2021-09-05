@@ -18,8 +18,7 @@ def total_anual_planta_ciudad(planta,ciudad):
  return sum(consumos)*tarifa
 
 def validar_ciudad(ciudad):
- ciudades=list(d.informacion["costa"])+list(d.informacion["sierra"])+lis
-t(d.informacion["oriente"])
+ ciudades=list(d.informacion["costa"])+list(d.informacion["sierra"])+list(d.informacion["oriente"])
  while ciudad not in ciudades:
  ciudad=input("Error! --> Ingrese una ciudad: ").title()
  return ciudad
