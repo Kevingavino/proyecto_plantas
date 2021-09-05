@@ -3,13 +3,12 @@ import data.datos as d
 def validar_planta(planta):
  plantas=list(d.consumo_energia.keys())
  while planta not in plantas:
- planta=input("Error! --> Ingrese el nombre de una planta: ").title()
+ planta=input("Error!--> Ingrese el nombre de una planta: ").title()
  return planta
 
 def validar_ciudadEnPlanta(planta,ciudad):
  while ciudad not in d.consumo_energia[planta]:
- ciudad=input("Error --
-> Ingrese una ciudad para esa planta: ").title()
+ ciudad=input("Error--> Ingrese una ciudad para esa planta: ").title()
  return ciudad
 
 def total_anual_planta_ciudad(planta,ciudad):
